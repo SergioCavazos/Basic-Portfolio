@@ -49,10 +49,12 @@ a {
 section {
     margin: auto;
     width: 900px;
+    height: 70%;
     background-color: #ffffff;
     margin-top: 50px;
     padding: 25px;
     margin-bottom: 80px;
+    position: relative;
 }
 
 header {
@@ -67,19 +69,27 @@ header {
     font-weight: bolder;
 }
 
-img {
-    margin-top: 10px;
-    float: left;
-    box-sizing: border-box;
-    padding-right: 15px;
+div {
+    position: relative;
 }
 
-p {
+
+form, input, textarea{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 100;
     line-height: 2.0rem;
     color: #777777;
+    width: 100%;
+
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 5px;
+    width: auto;
 }
 
 footer {

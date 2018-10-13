@@ -49,10 +49,13 @@ a {
 section {
     margin: auto;
     width: 900px;
+    height: 95%;
     background-color: #ffffff;
     margin-top: 50px;
     padding: 25px;
     margin-bottom: 80px;
+    position: relative;
+    overflow: auto;
 }
 
 header {
@@ -67,19 +70,52 @@ header {
     font-weight: bolder;
 }
 
-img {
-    margin-top: 10px;
-    float: left;
-    box-sizing: border-box;
-    padding-right: 15px;
+div {
+    position: relative;
 }
 
-p {
+img {
+    margin: 10px;
+    float: left;
+}
+
+p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 100;
     line-height: 2.0rem;
-    color: #777777;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    width: 275px;
+
+}
+
+#one {
+    margin-left: 10px;
+    margin-top: 140px;
+}
+
+#two {
+    margin-left: 315px;
+    margin-top: 140px;
+}
+
+#three {
+    margin-left: 10px;
+    margin-top: 340px;
+}
+
+#four {
+    margin-left: 315px;
+    margin-top: 340px;
+}
+
+#five {
+    margin-left: 10px;
+    margin-top: 540px;
 }
 
 footer {
@@ -94,5 +130,7 @@ footer {
     border-width: 3px;
     padding-top: 30px;
     padding-bottom: 0px;
+    clear: both;
+    overflow: auto;
 
 }
